@@ -6,7 +6,8 @@
  * Return: 1 if success, 0 if not
  */
 
-int is_digit(char *string){
+int is_digit(char *string)
+{
 	if (!string || *string == '\0')
 		return (0);
 	if (*string == '-')
